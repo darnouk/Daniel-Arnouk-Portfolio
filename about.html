@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daniel Arnouk</title>
+    <!-- Bootstrap stylesheet links -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/solar/bootstrap.min.css">
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Adjust text color */
+        body, .jumbotron h2, .jumbotron p, .container p {
+            color: #000000; /* Black text color */
+        }
+
+        /* Style for the header */
+        .navbar-default {
+            background-color: #ad9d0d; /* Gold background color */
+        }
+
+        /* Style for the jumbotron title */
+        .jumbotron h2 {
+            color: white; /* White text color */
+            padding: 20px; /* Padding for better appearance */
+            border-radius: 5px; /* Optional: Add border radius for rounded corners */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Create the navbar -->
+    <nav class="navbar navbar-expand-lg navbar-default">
+        <!-- Container inside the navbar header to span the page -->
+        <div class="container-fluid">
+            <!-- Creates the navbar header -->
+            <a class="navbar-brand" href="index.html">Daniel Arnouk</a>
+            <!-- This complex script is just for a hamburger button, which will appear on smaller screens -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="menu">Menu</span>
+            </button>
+            <!-- Links to include in navbar -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- Unordered list for links on navbar -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resume.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+        <div class="container">
+            <h2>My Background</h2>
+        </div>
+    </div>
+
+    <!-- Main content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="assets/pfp.png" alt="professional portrait" class="img-responsive" id="about-me" />
+            </div>
+            <div class="col-md-9">
+                <p>
+                    For as long as I can remember, I’ve always been fascinated by two things: geography and technology. My interest in geography began when my parents handed me down a now vintage GeoSafari world globe, which included an interactive game, for my 7th birthday. I remember spending so much time learning different facts about the countries of the world that my parents had to buy new batteries for the globe multiple times.
+                </p>
+                <p>
+                    Beyond this, my interest in geography continued as I grew older. As I continued to develop my Excel knowledge throughout high school and college, I began taking up analyzing geographic data as a hobby simply because I found it fascinating and a way to help me better understand the world around me. This included a range of things from analyzing population densities to visualizing “hospital deserts”. I familiarized myself with free-to-use programs like qGIS for mapping data and even learned that Excel of all things has some limited mapping functionalities to assist with my independent research.
+                </p>
+                <p>
+                    My passion and skills in the field of GIS grows by the day, and my goal is to one day combine that passion and my previous work experience to have a career as a GIS Developer.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap and custom script links -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
